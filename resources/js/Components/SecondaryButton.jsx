@@ -8,8 +8,7 @@ export default function SecondaryButton({ type = 'button', className = '', disab
                     disabled && 'opacity-25'
                 } ` + className
             }
-            disabled={disabled}
-        >
+            disabled={disabled}>
             {children}
         </button>
     );
